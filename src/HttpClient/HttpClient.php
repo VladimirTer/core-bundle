@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Auki\CoreBundle\HttpClient;
+namespace VladimirTer\CoreBundle\HttpClient;
 
 use OpenSwoole\Coroutine\Http\Client;
 use CoreBundle\Exception\HttpClientException;

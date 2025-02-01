@@ -1,10 +1,10 @@
-    <?php
+<?php
 
-    declare(strict_types=1);
+declare(strict_types=1);
 
-    namespace Auki\CoreBundle\HttpClient;
+namespace VladimirTer\CoreBundle\HttpClient;
 
-    interface HttpClientInterface
-    {
-        public function post(string $url, string $body): void;
-    }
+interface HttpClientInterface
+{
+    public function post(string $url, string $body): void;
+}
